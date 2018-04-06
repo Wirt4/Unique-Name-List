@@ -1,0 +1,15 @@
+Create New String ArrayList names
+while (true) {
+	string v = readln("Enter Name" )
+	if (v == "") {
+		break; }
+	if(names.contains(v)==false){
+		names.add(v)
+		}
+	}
+println("Unique names list contains :")
+for(int i=0, i<names.size(), i++){
+	println(names(i))
+}
+
+private boolean isInArrayList()
